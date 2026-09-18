@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fybron - Em manutenção</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <main class="content">
+      <img class="logo" src="assets/logo-fybron.jpeg" alt="Fybron">
+
+      <nav class="lang-switch" aria-label="Idioma">
+        <button type="button" data-lang="pt" class="active">PT</button>
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="nl">NL</button>
+      </nav>
+
+      <h1 data-i18n="headline">Estamos a rebobinar<br>alguns detalhes.</h1>
+      <hr class="rule">
+
+      <p class="lede" data-i18n="lede">
+        O site da Fybron está temporariamente em manutenção enquanto efetuamos
+        melhorias no nosso sistema. Voltamos a estar disponíveis em breve.
+      </p>
+
+      <div class="status-row">
+        <span class="dot"></span>
+        <span data-i18n="status">Manutenção em Curso - Obrigado pela paciência.</span>
+      </div>
+
+      <div class="contact">
+        <span data-i18n="contact">Para assuntos urgentes, contacte-nos diretamente.</span>
+        <a class="contact-email" href="mailto:geral@fybron.pt">sergio.miranda@fybron.be</a>
+         <span class="sep">·</span>
+          <a href="tel:+351912345678">+32 472 88 61 91</a>
+      </div>
+    </main>
+
+    <footer data-i18n="footer">© 2026 Fybron. Todos os direitos reservados.</footer>
+
+  </div>
+
+  <script src="js/translations.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
