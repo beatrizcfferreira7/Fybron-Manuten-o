@@ -1,13 +1,5 @@
 var translations = {
-  pt: {
-    title: "FYBRON - Em manutenção",
-    headline: "Estamos a rebobinar<br>alguns detalhes.",
-    lede: "O site da Fybron está temporariamente em manutenção enquanto efetuamos melhorias no nosso sistema. Voltamos a estar disponíveis em breve.",
-    status: "Manutenção em Curso - obrigado pela paciência.",
-    contact: "Para assuntos urgentes, contacte-nos diretamente.",
-    footer: "© 2026 Fybron. Todos os direitos reservados."
-  },
-  en: {
+   en: {
     title: "FYBRON - Under maintenance",
     headline: "We're rewinding<br>a few details.",
     lede: "The Fybron website is temporarily under maintenance while we fine-tune improvements to our system. We'll be back online shortly.",
